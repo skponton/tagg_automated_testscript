@@ -1,0 +1,147 @@
+########################################
+Page Header
+########################################
+myAccount=Id|myaccount
+login_header=CssSelector|li:nth-of-type(4)>a
+registration_header=CssSelector|li:nth-of-type(3)>a
+click_signUp=CssSelector|#sign>h4>a
+requestDonation_header=LinkText|RequestDonation
+
+
+########################################
+Business Admin Header
+########################################
+userNameHeader=CssSelector|li.dropdown
+logOut=CssSelector|.dropdown-menu>li:nth-of-type(3)>a
+
+
+profileMgmt_link=LinkText|Profile Management
+searchDonations_header=LinkText|Search Donations
+requestDonation_header=LinkText|RequestDonation
+
+myOrg=CssSelector|#myNavbar>ul>li:nth-of-type(3)>a
+donationPreference=CssSelector|.dropdown-menu>div>li:nth-of-type(1)>a
+businessLocations=CssSelector|.dropdown-menu>div>li:nth-of-type(2)>a
+communicationTemplate=CssSelector|.dropdown-menu>div>li:nth-of-type(3)>a
+logOut=CssSelector|.dropdown-menu>li:nth-of-type(3)>a
+
+
+
+########################################
+Login Page
+########################################
+login_input=Id|email
+login_password=Id|password
+login_submit=CssSelector|.btn.btn-primary
+
+########################################
+Mail Trap Login
+########################################
+mailtrapLogin_header=LinkText|Log in
+mailtrap_userEmail=Id|user_email
+mailtrap_password=Id|user_password
+mailtrap_submit=CssSelector|.submit.pbm>input
+tagg_Icon=CssSelector|.inbox_name.inbox-name
+click_deleteAll=CssSelector|.icon.icon--clear-inbox
+click_FirstMessage=CssSelector|ul.messages_list.inbox-content.nav-list>li:nth-of-type(1)>span
+deleteMsg_Icon=CssSelector|.icon.icon--trash
+confirmDelete=CssSelector|.confirm_delete_email_link.x-small-button.mls
+########################################
+Business Registration Page
+########################################
+fNameReg_input=Id|first_name
+lNameReg_input=Id|last_name
+eMailReg_input=Id|email
+passwordReg_input=Id|password
+confirmPwReg_input=Id|password-confirm
+orgNameReg_input=Id|org_name
+busDescription=Id|org_description
+orgtype_dropdown=Name|organization_type_id
+address1reg_input=Id|street_address1
+address2reg_input=Id|street_address2
+cityReg_input=Id|city
+stateReg_dropdown=Name|state
+zipcode_input=Id|zipcode
+phNoReg_input=Id|phone_number
+register_button=CssSelector|.btn.btn-primary
+
+
+########################################
+Security Questions
+########################################
+secQue01_dropdown=CssSelector|.panel-body>form>div:nth-of-type(1) select
+secQue02_dropdown=CssSelector|.panel-body>form>div:nth-of-type(3) select
+secQue03_dropdown=CssSelector|.panel-body>form>div:nth-of-type(5) select
+
+secAns01_dropdown=CssSelector|form>div:nth-of-type(2)>div>input
+secAns02_dropdown=CssSelector|form>div:nth-of-type(4)>div>input
+secAns03_dropdown=CssSelector|form>div:nth-of-type(6)>div>input
+
+saveQue_button=CssSelector|.btn.btn-primary.form-control
+
+########################################
+Payment Options
+########################################
+
+noOfUsers_input=Id|user_locations
+plan_dropDown=Id|plan
+coupon=CssSelector|#coupon
+
+cardNo_input=Id|cardNumber
+expMonth_input=Id|expiryMonth
+expYear_input=Id|expiryYear
+cvv_input=Id|cvCode
+paymentSuccess_Text=CssSelector|.alert.alert-success
+
+pay_Button=Id|button_pay
+
+########################################
+Donation Request
+########################################
+
+orgName_input=Id|requester
+orgType_dropDown=Name|requester_type
+fNameRequestor_input=Id|firstname
+lNameRequestor_input=Id|lastname
+emailRequestor_input=Id|email
+phoneRequestor_input=Id|phonenumber
+address1Requestor_input=Id|address1
+address2Requestor_input=Id|address2
+cityRequestor_input=Id|city
+stateRequestor_dropdown=Name|state
+zipcodeRequestor_input=Id|zipcode
+501c3CheckYes_radio=Id|yesCheck
+501c3CheckNo_radio=Id|noCheck
+attachmentRequestor_button=CssSelector|#file_upload>div>input
+requestFor_dropdown=Name|item_requested
+donationAmountRequestor_input=Id|dollar_amount
+donationPurpose_dropdown=Name|item_purpose
+neededByDate_input=Id|needed_by_date
+eventName_input=Id|eventname
+startDate_input=Id|startdate
+endDate_input=Id|enddate
+purposeOfEvent_dropDown=Name|event_type
+AttendeesNo_input=Id|formAttendees
+eventVenue_input=Id|venue
+marketingOpp_input=Id|marketingopportunities
+sendRequest_submit=CssSelector|.btn.btn-success
+
+########################################
+Search Donations Page
+########################################
+manualDonation_Link=CssSelector|input[value='Manual Entry for Donation Request']
+
+########################################
+Add Business Location
+########################################
+addBusinessLocations=CssSelector|.panel.panel-default>div:nth-of-type(2)>a
+
+########################################
+Profile Management
+########################################
+addUser=PartialLinkText|Add User
+uFirstName=Name|first_name
+uLastName=Name|last_name
+uEmail=Id|email
+busLocationDropdown=Name|location
+userCreate=Id|createbutton
